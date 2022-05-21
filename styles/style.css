@@ -1,7 +1,5 @@
-/*font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;*/
-body{
-    max-width: 800px;
+body {
+  max-width: 800px;
 }
 :root {
   --branding-color: #83bd75;
@@ -66,20 +64,26 @@ img {
   .project-description {
     padding: none;
     text-align: center;
-   margin: auto;
+    margin: auto;
   }
-  .p{
-      margin:30px;
-
+  .project-name {
+    font-weight: bold;
+    padding: 0;
   }
-  .project-name{
-      font-weight: bold;
+  h1 {
+    font-size: 40px;
+    margin: 0;
   }
-  p{
-      margin:10px;
+  .p {
+    padding: 0;
+    margin-bottom: 30px;
   }
-  h1{
-      font-size: 40px;
-      margin:0;
+  .featured {
+    margin: 15px 15px 40px 15px;
+    font-weight: bold;
+    font-size: 22px;
   }
- 
+  .header-h2 {
+    font-size: 40px;
+  }
+}
