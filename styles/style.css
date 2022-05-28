@@ -126,6 +126,7 @@ img {
 .about-page .img-fluid {
   width: 300px;
   border-radius: 6px;
+  opacity: 85%;
 }
 
 .about-page-content {
