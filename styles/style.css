@@ -31,6 +31,7 @@ h2 {
 img {
   margin-top: 17px;
   border: 5px solid var(--secondary-color);
+  box-shadow: ;
 }
 .hero {
   text-align: center;
@@ -126,7 +127,7 @@ img {
 .about-page .img-fluid {
   width: 300px;
   border-radius: 6px;
-  opacity: 85%;
+  opacity: 95%;
 }
 
 .about-page-content {
