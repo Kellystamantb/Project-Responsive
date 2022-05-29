@@ -52,6 +52,7 @@ img {
     rgb(206, 240, 185) 47.5%,
     rgb(100, 163, 111) 100.2%
   );
+  background-size: auto;
 
   padding: 160px 20px;
   color: var(--text-color);
@@ -128,6 +129,7 @@ img {
     rgb(100, 163, 111) 100.2%
   );
   text-align: center;
+  background-size: auto;
 }
 .content-container h1 {
   font-size: 40px;
