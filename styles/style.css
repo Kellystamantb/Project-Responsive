@@ -223,7 +223,9 @@ footer .social-link a {
     margin: 30px 0px 50px 0px;
     text-decoration: none;
   }
-
+  .hero h1 {
+    font-size: 30px;
+  }
   .p {
     padding: 0;
     margin-bottom: 30px;
