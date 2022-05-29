@@ -27,13 +27,17 @@ img {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 6px;
 }
-.navbar {
+
+.navbar,
+.hero,
+.content-container {
   background: linear-gradient(
     109.6deg,
     rgb(251, 250, 225) 11.2%,
     rgb(206, 240, 185) 47.5%,
     rgb(100, 163, 111) 100.2%
   );
+  background-size: cover;
 }
 .navbar-brand {
   color: var(--text-color);
@@ -46,12 +50,7 @@ img {
 }
 .hero {
   text-align: center;
-  background: linear-gradient(
-    109.6deg,
-    rgb(251, 250, 225) 11.2%,
-    rgb(206, 240, 185) 47.5%,
-    rgb(100, 163, 111) 100.2%
-  );
+
   background-size: auto;
 
   padding: 160px 20px;
@@ -122,12 +121,6 @@ img {
 .content-container {
   padding: 160px 20px;
   color: var(--text-color);
-  background: linear-gradient(
-    109.6deg,
-    rgb(251, 250, 225) 11.2%,
-    rgb(206, 240, 185) 47.5%,
-    rgb(100, 163, 111) 100.2%
-  );
   text-align: center;
   background-size: auto;
 }
@@ -153,6 +146,7 @@ img {
 
 .content {
   margin: 30px;
+  margin-bottom: 274px;
 }
 .project-picture {
   width: 700px;
@@ -161,6 +155,22 @@ img {
   margin-top: 150px;
   text-align: justify;
 }
+.contact-h1 {
+  margin-bottom: 50px;
+}
+.contact-link {
+  text-decoration: none;
+  color: var(--branding-color);
+  font-weight: bolder;
+  padding-left: 10px;
+}
+.contact-link:hover {
+  color: var(--text-color);
+}
+.contact-app {
+  margin-top: 50px;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: none;
@@ -214,5 +224,8 @@ img {
   }
   .content-container img {
     margin-top: 5px;
+  }
+  .project-picture {
+    margin-bottom: 25px;
   }
 }
