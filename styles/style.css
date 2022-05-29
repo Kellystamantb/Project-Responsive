@@ -2,8 +2,7 @@ body {
   display: block;
   font-family: var(--default-font-family);
   background: var(--background-color);
-
-  height: 1000px;
+  height: 1050px;
 }
 :root {
   --branding-color: #83bd75;
@@ -58,7 +57,8 @@ footer .social-link a {
   text-decoration: none;
   color: var(--text-color);
 }
-.navbar {
+.navbar,
+.hero {
   background: linear-gradient(
     109.6deg,
     rgb(251, 250, 225) 11.2%,
@@ -175,6 +175,7 @@ footer .social-link a {
 
 .content {
   margin: 30px;
+  text-align: center;
 }
 
 .project-picture {
@@ -201,6 +202,9 @@ footer .social-link a {
 }
 
 @media (max-width: 900px) {
+  body {
+    height: max-content;
+  }
   .project-description {
     padding: none;
     text-align: center;
