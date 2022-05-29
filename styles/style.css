@@ -111,7 +111,13 @@ img {
 }
 .p {
   margin-bottom: 90px;
+  font-size: 20px;
+  text-align: justify;
 }
+.project-name {
+  font-weight: bolder;
+}
+
 .content-container {
   padding: 160px 20px;
   color: var(--text-color);
@@ -149,6 +155,10 @@ img {
 .project-picture {
   width: 700px;
 }
+.project-p {
+  margin-top: 150px;
+  text-align: justify;
+}
 @media (max-width: 900px) {
   .project-description {
     padding: none;
@@ -159,9 +169,7 @@ img {
     font-weight: bold;
     padding: 0;
   }
-  .hero h1 {
-    height: 55px;
-  }
+
   h1 {
     font-size: 40px;
     margin: 15px;
@@ -174,6 +182,7 @@ img {
   .p {
     padding: 0;
     margin-bottom: 30px;
+    font-size: 16px;
   }
   .featured {
     margin: 25px 15px 40px 15px;
@@ -188,7 +197,7 @@ img {
   }
   .content-container {
     text-align: center;
-    padding: 0px;
+    padding: none;
   }
   .content-container p {
     font-size: 15px;
