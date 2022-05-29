@@ -189,15 +189,22 @@ footer .social-link a {
 .contact-h1 {
   margin-bottom: 50px;
 }
-.contact-link {
+.contact-link,.github {
   text-decoration: none;
-
   font-weight: bolder;
   padding-left: 10px;
 }
+.contact-link{
+  color: var(--branding-color);}
 
-.contact-link:hover {
+.contact-link:hover{
   color: var(--text-color);
+}
+.github{
+  color: var(--text-color);
+}
+.github:hover{
+color: var(--branding-color);
 }
 .contact-app {
   margin-top: 50px;
@@ -269,3 +276,9 @@ footer .social-link a {
     font-size: 24px;
   }
 }
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Doc
