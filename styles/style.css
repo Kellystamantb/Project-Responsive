@@ -2,7 +2,7 @@ body {
   display: block;
   font-family: var(--default-font-family);
   background: var(--background-color);
-  height: 1050px;
+  height: 1250px;
 }
 :root {
   --branding-color: #83bd75;
@@ -44,7 +44,11 @@ footer .email-link,
   color: var(--text-color);
   font-size: 24px;
 }
-
+.navbar-brand,
+.hero,
+.content-container {
+  color: var(--text-color);
+}
 footer .social-link a :hover {
   color: var(--branding-color);
   transition: all 150ms;
@@ -55,7 +59,6 @@ footer .social-link a {
   border-radius: 8px;
   font-size: 30px;
   text-decoration: none;
-  color: var(--text-color);
 }
 .navbar,
 .hero {
@@ -82,7 +85,6 @@ footer .social-link a {
   background-size: auto;
 
   padding: 160px 20px;
-  color: var(--text-color);
 }
 .featured {
   margin-top: 15px;
@@ -148,9 +150,9 @@ footer .social-link a {
 
 .content-container {
   padding: 160px 20px;
-  color: var(--text-color);
+  background: var(--background-color);
+  height: 1250px;
   text-align: center;
-  background-size: 100%;
 }
 .content-container h1 {
   font-size: 40px;
@@ -189,10 +191,11 @@ footer .social-link a {
 }
 .contact-link {
   text-decoration: none;
-  color: var(--branding-color);
+
   font-weight: bolder;
   padding-left: 10px;
 }
+
 .contact-link:hover {
   color: var(--text-color);
 }
@@ -205,15 +208,20 @@ footer .social-link a {
     height: max-content;
   }
   .project-description {
+    margin: auto;
+  }
+  .project-description,
+  .content-container {
     padding: none;
     text-align: center;
-    margin: auto;
   }
   .project-name {
     font-weight: bold;
+  }
+  .p,
+  .project-name {
     padding: 0;
   }
-
   h1 {
     font-size: 50px;
     margin: 10px;
@@ -221,13 +229,11 @@ footer .social-link a {
   .hero h3 {
     font-size: 20px;
     margin: 30px 0px 50px 0px;
-    text-decoration: none;
   }
   .hero h1 {
     font-size: 30px;
   }
   .p {
-    padding: 0;
     margin-bottom: 30px;
     font-size: 16px;
   }
@@ -235,17 +241,13 @@ footer .social-link a {
     margin: 25px 15px 40px 15px;
     font-weight: bold;
     font-size: 22px;
-    text-decoration: underline;
   }
 
   .header-h2 {
     font-size: 40px;
     line-height: 10px;
   }
-  .content-container {
-    text-align: center;
-    padding: none;
-  }
+
   .content-container p {
     font-size: 15px;
     margin: 10px 0px 30px 0px;
